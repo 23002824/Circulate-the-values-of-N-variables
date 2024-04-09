@@ -19,12 +19,14 @@ Output the rotated list.
 End
 ## Program:
 ```
+Circulate-the-values-of-N-variables
 def circulate():
     l=eval(input())
     n=int(input())
     l=l[n: ]+l[ :n]
     print("After circulating the values are:",l)
-
+Developed by:Danica Christa
+RegisterNumber:212223240022
 ```
 ## Output:
 ![alt text](<Screenshot 2024-03-09 093130.png>)
